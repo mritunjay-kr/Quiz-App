@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    background-color: #4CAF50; /* Title background color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#category-select {
+    display: block; /* Make it a block element to center it */
+    margin: 20px auto; /* Centering with auto margins */
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50; /* Submit button background color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; /* Make it a block element to center it */
+    margin: 20px auto; /* Centering with auto margins */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin: 5px 0;
+}
